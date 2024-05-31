@@ -10,24 +10,23 @@ const vehicleSchema = new mongoose.Schema({
   // Those(make, model, year, color and price) all are Json syntacs
   make: {
      type: String, 
-     required: true 
+     required: true, 
     },
   model: { 
     type: String, 
-    required: true,
-    unique: true 
+    required: true, 
    },
   year: { 
     type: Number, 
-    required: true 
+    required: true, 
   },
   color: { 
     type: String, 
-    required: true 
+    required: true, 
   },
   price: { 
     type: Number, 
-    required: true 
+    required: true, 
   }
 });
 //Creating a models from the schema and 
